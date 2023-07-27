@@ -1,0 +1,34 @@
+
+@media screen and (min-width: 1024px) {
+    .rightPart {
+        /*width: calc(50% - 24px);*/
+        /*overflow-y: auto;*/
+        /*position: fixed;*/
+        /*top: 48px;*/
+        /*right: 0;*/
+        /*bottom: 0;*/
+        /*margin-left: calc(50% - 24px);*/
+        /*box-sizing: border-box;*/
+        /*padding: 0 30px;*/
+
+
+        width: calc(50% - 54px);
+        position: absolute; /* Изменяем на absolute позиционирование */
+        top: 48px;
+        right: 24px;
+        bottom: 0;
+        box-sizing: border-box;
+        padding: 0 30px;
+        overflow-y: auto;
+        scrollbar-width: none;
+
+    }
+
+    .container_rightPart {
+        overflow-y: auto;
+    }
+
+    .rightPart::-webkit-scrollbar {
+        display: none;
+    }
+}

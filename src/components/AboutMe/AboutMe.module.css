@@ -1,0 +1,27 @@
+
+.about_text {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .about_text {
+        display: block;
+    }
+}
+
+.icons {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 40px;
+}
+
+.icon {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 15px;
+    transition: color 0.2s ease;
+}
+
+.icon:hover {
+    color: #d9dce380;
+}
